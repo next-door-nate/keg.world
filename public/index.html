@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tag above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Keg.World</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start`.
+      To create a production bundle, use `npm run build`.
+    -->
+  </body>
+
+  <script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAoo_Dg8WBjNaP0XwfZCK_7Ze1lTfC7UFg",
+      authDomain: "keg-world.firebaseapp.com",
+      databaseURL: "https://keg-world.firebaseio.com",
+      storageBucket: "keg-world.appspot.com",
+      messagingSenderId: "298701999814"
+    };
+    firebase.initializeApp(config);
+  </script>
+
+  <script>
+    (function(k,e,g,w,r,l,d){k['GoogleAnalyticsObject']=r;k[r]=k[r]||function(){
+    (k[r].q=k[r].q||[]).push(arguments)},k[r].l=1*new Date();l=e.createElement(g),
+    d=e.getElementsByTagName(g)[0];l.async=1;l.src=w;d.parentNode.insertBefore(l,d)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-29923838-8', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</html>
