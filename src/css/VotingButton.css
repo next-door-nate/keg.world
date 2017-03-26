@@ -1,0 +1,18 @@
+.voting-button{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  background-color: #ededed;
+  border-radius: 50%;
+  vertical-align: top;
+  float: right;
+}
+
+.voting-button--up{
+  background: #6E7EED;
+}
+
+.voting-button--down{
+  background: #08D4F3;
+}
