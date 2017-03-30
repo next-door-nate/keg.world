@@ -20,6 +20,10 @@ class VotingTable extends Component {
               <VotingTableRow />
               <VotingTableRow />
               <VotingTableRow />
+              <VotingTableRow />
+              <VotingTableRow />
+              <VotingTableRow />
+              <VotingTableRow />
             </Grid>
           </Table>
         </Wrapper>

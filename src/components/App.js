@@ -1,22 +1,23 @@
 import React, { Component } from 'react';
+import {BrowserRouter as Router} from 'react-router-dom';
 import VotingTable from './VotingTable.js';
+import {Header, Footer} from '../components/layout/Site.js';
 
 class App extends Component {
   render() {
     return (
-      <div className="keg-world">
-        <section className="banner">
-          <header className="header">
-            <div className="wrap">
-              <h1 className="logo">Keg.World</h1>
-            </div>
-          </header>
-          <h2>This is a story about a little ol’ keg...called democracy.</h2>
-          <a href="#"></a>
-        </section>
+      <Router>
+        <div className="keg-world">
+          <section className="banner">
+            <Header />
+            <h2>This is a story about a little ol’ keg called... democracy.</h2>
+            <a className="main-button" href="#">Nominate a keg</a>
+          </section>
 
-        <VotingTable/>
-      </div>
+          <VotingTable/>
+          <Footer />
+        </div>
+      </Router>
     );
   }
 }

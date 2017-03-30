@@ -1,6 +1,8 @@
 {
-  "main.css": "static/css/main.93f31d1e.css",
-  "main.css.map": "static/css/main.93f31d1e.css.map",
-  "main.js": "static/js/main.ebbb9d06.js",
-  "main.js.map": "static/js/main.ebbb9d06.js.map"
+  "main.css": "static/css/main.04e111c2.css",
+  "main.css.map": "static/css/main.04e111c2.css.map",
+  "main.js": "static/js/main.7ec90f5e.js",
+  "main.js.map": "static/js/main.7ec90f5e.js.map",
+  "static/media/vote--down.svg": "static/media/vote--down.6c5daad3.svg",
+  "static/media/vote--up.svg": "static/media/vote--up.b23f40ab.svg"
 }

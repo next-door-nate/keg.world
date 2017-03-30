@@ -7,7 +7,7 @@ class VotingTableRow extends Component {
     return (
       <Column classNames="col-12">
         <div className="table__row">
-          <Grid classNames="grid-noGutter">
+          <Grid classNames="grid-middle-noGutter">
             <Column classNames="col-7">
               <p>1. <span className='beer__brand'>Barnhammer Brewing</span> - <span className="beer__name">Grandpa&apos;s Sweater</span></p>
             </Column>
