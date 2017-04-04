@@ -91,6 +91,7 @@ nav a:hover{
   background: radial-gradient(1568.33px at 100% 0%, #07D6F2 0%, #9654FB 100%);
   opacity: 1.00;
   min-height: 500px;
+  transition: all .3s ease-in-out;
 }
 
 .main-button{
@@ -144,4 +145,10 @@ nav a:hover{
   .voting .wrap{
     padding: 0 ;
   }
+}
+
+
+
+.past-kegs .banner{
+  min-height: 300px;
 }
