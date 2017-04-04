@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import '../css/VotingButton.css';
-import DownArrow from '../img/vote--down.svg';
-import UpArrow from '../img/vote--up.svg';
 
 class VotingButton extends Component {
   render() {

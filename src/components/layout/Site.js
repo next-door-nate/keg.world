@@ -1,5 +1,6 @@
 import React from 'react';
 import {Wrapper, Grid, Column} from './Grid.js';
+import {Link} from 'react-router-dom';
 import classNames from 'classnames';
 
 // export const TableRow = (props) =>
@@ -17,12 +18,16 @@ export const Header = (props) => {
             <div className="wrap">
               <Grid>
                 <Column classNames="col-4">
-                  <h1 className="logo">Keg.World</h1>
+                  <Link to="/">
+                    <h1 className="logo">Keg.World</h1>
+                  </Link>
                 </Column>
                 <Column>
                   <nav>
+
+
                     <a href="#" title="Past Kegs" className="login">Login</a>
-                    <a href="#" title="Past Kegs">Past Kegs</a>
+                    <Link to="/past-kegs">Past Kegs</Link>
                   </nav>
                 </Column>
               </Grid>
